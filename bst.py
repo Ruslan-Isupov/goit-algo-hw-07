@@ -175,7 +175,7 @@ for key in keys:
 #     print("Видалено:", key)
 #     print("AVL-Дерево:")
 #     print(root)
-
+# Homework 7
 min_value = find_min_value(root)
 max_value = find_max_value(root)
 total_sum = sum_of_values(root)
