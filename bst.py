@@ -97,14 +97,14 @@ def find_max_value(node):
     current = node
     while current.right is not None:
         current = current.right
-    return current
+    return current.key
 
 ##  Exercise 2 "Напишіть функцію, яка знаходить найменше значення" 
 def find_min_value(node):
     current = node
     while current.left is not None:
         current = current.left
-    return current
+    return current.key
 
 ##  Exercise 3 "Напишіть функцію, яка знаходить суму всіх значень "
 def sum_of_values(node):
